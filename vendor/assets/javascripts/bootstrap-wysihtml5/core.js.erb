@@ -47,7 +47,7 @@
             var size = (options && options.size) ? ' btn-'+options.size : '';
             var margin = ($(window).width() / 2) + 40
             return "<li>" +
-              "<div class='bootstrap-wysihtml5-insert-link-modal modal sub-modal hide fade' id='submodal' style='width:450px; left:" + margin + "px; top:10.1%; height:169px!important'>" +
+              "<div class='bootstrap-wysihtml5-insert-link-modal modal sub-modal hide fade' id='submodal' style='width:450px; left:" + margin + "px; top:10.1%; height:144px!important'>" +
                 "<div class='modal-body'>" +
                     "<p class='text-center'>" + locale.link.insert + "</p>" +
                   "<input value='http://' class='bootstrap-wysihtml5-insert-link-url input-xlarge'>" +
@@ -64,9 +64,9 @@
         "image": function(locale, options) {
             var size = (options && options.size) ? ' btn-'+options.size : '';
             return "<li>" +
-              "<div class='bootstrap-wysihtml5-insert-image-modal modal sub-modal hide fade' id='submodal' style='width:30%; left:57%; top:10.1%; height:169px!important'>" +
+              "<div class='bootstrap-wysihtml5-insert-image-modal modal sub-modal hide fade' id='submodal' style='width:30%; left:57%; top:10.1%; height:144px!important'>" +
                 "<div class='modal-body'>" +
-                  "<h3>" + locale.image.insert + "</h3>" +
+                  "<p class='text-center'>" + locale.image.insert + "</p>" +
                   "<input value='http://' class='bootstrap-wysihtml5-insert-image-url input-xlarge'>" +
                 "</div>" +
                 "<div class='modal-footer'>" +
